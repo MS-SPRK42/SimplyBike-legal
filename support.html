@@ -6,36 +6,82 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     body {
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       background: #1E1E1E;
       color: #FFFFFF;
       padding: 24px;
       line-height: 1.6;
-      max-width: 720px;
+      max-width: 760px;
       margin: auto;
-      text-align: center;
     }
-    h1 { color: #CCAFFF; }
-    p { color: #BDBDBD; }
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 32px;
+    }
+    .brand img {
+      width: 44px;
+      height: 44px;
+    }
+    .brand-title {
+      font-size: 26px;
+      font-weight: 700;
+      color: #FFFFFF;
+    }
+    .brand-title span {
+      color: #CCAFFF;
+    }
+    h1 {
+      color: #FFFFFF;
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+    h2 {
+      margin-top: 28px;
+      color: #CCAFFF;
+      font-size: 20px;
+    }
+    p {
+      color: #BDBDBD;
+      font-size: 16px;
+    }
     a {
       color: #CCAFFF;
       text-decoration: none;
-      font-weight: bold;
+      font-weight: 700;
+    }
+    .card {
+      background: #2A2A2A;
+      border-radius: 18px;
+      padding: 22px;
     }
   </style>
 </head>
 <body>
 
-<h1>SimplyBike Support</h1>
+  <div class="brand">
+    <img src="simplybike_logo.png" alt="SimplyBike logo">
+    <div class="brand-title">Simply<span>Bike</span></div>
+  </div>
 
-<p>If you need help or have any questions, you can:</p>
+  <div class="card">
+    <h1>Support</h1>
 
-<p>
-• Contact us at <a href="mailto:support@sprk42.com">support@sprk42.com</a><br>
-• Or send feedback directly from within the app
-</p>
+    <p>If you need help or have any questions, you can:</p>
 
-<p>We aim to respond as soon as possible.</p>
+    <p>
+      • Contact us at <a href="mailto:support@sprk42.com">support@sprk42.com</a><br>
+      • Send feedback directly from within the app
+    </p>
+
+    <h2>Feedback</h2>
+    <p>
+      SimplyBike includes an in-app feedback form for ideas, issues, and general comments.
+    </p>
+
+    <p>We aim to respond as soon as possible.</p>
+  </div>
 
 </body>
 </html>
